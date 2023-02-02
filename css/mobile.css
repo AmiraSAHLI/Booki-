@@ -1,0 +1,62 @@
+@media screen and (min-width: 375px ) and ( max-width:767px) {
+
+ 
+    .blocPage {
+        margin: 20px 0px 0px 0px;
+    }
+
+
+    /* header */
+
+    
+header {
+    flex-direction: column;
+    justify-content: unset;
+    height: auto;
+}
+
+#logo {
+    justify-content: center;
+    
+}
+
+#logo>img {
+    padding-left: 0px;
+}
+
+nav {
+    justify-content: center;
+    height: 60px;
+}
+
+
+.menuItem {
+    width: 50%;
+    
+}
+
+.menuItem:hover {
+    border-top: unset;
+    border-bottom: 4px #0065FC solid;
+    
+}
+
+/* main */
+
+
+
+
+
+
+    .rechercher {
+        display: none;
+    }
+    
+    .loupe {
+        display: block;
+    }
+    .zoneFiltres {
+        flex-direction: column;
+        
+    }
+}
