@@ -1,3 +1,177 @@
-@media screen and (min-width: 768px ) and ( max-width:991px) {
-    
+@media screen and (min-width: 768px) and (max-width:991px) {
+
+    body {}
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4 {}
+
+    .blocPage {}
+
+    header {}
+
+    #logo {}
+
+    #logo>img {}
+
+    nav {}
+
+
+    .menuItem {}
+
+    .menuItem:hover {}
+
+    main {
+        gap: 30px;
+    }
+
+    /*section Header*/
+
+    .section1 {
+        gap: 30px;
+    }
+
+    .texte {}
+
+    .texte>h1 {}
+
+    .texte>p {}
+
+    /*barre de recherche*/
+
+    .zoneRecherche {}
+
+    .iconeMap {}
+
+    .iconeMap>i {}
+
+    .inputSearch {}
+
+    .rechercher {}
+
+    .loupe {}
+
+    .loupe>i {}
+
+    /*zone filtre*/
+
+    .zoneFiltres {}
+
+    .zoneFiltres>h2 {}
+
+    .buttonFiltres {}
+
+    .buttonFiltre {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .buttonFiltre:hover {}
+
+    .buttonFiltre>i {}
+
+
+    .zoneInfo {}
+
+    .iconeInfo {}
+
+    .iconeInfo>i {}
+
+    /*section Hébergement et plus pop*/
+    .hebergPop {
+        flex-direction: column;
+    }
+
+    /*div Hébergement*/
+
+    .hebergement {
+        Width: 90%;
+    }
+
+    .titreHeberg {}
+
+    .cardsHeberg {}
+
+    .cardHeberg {}
+
+    .cardHeberg:hover {}
+
+    .imageHeberg {}
+
+    .imageHeberg>img {}
+
+    .detailHeberg {}
+
+    .starsHeberg {}
+
+    .afficherPlus {}
+
+    /*Aside Les plus pop*/
+
+    .plusPop {
+        Width: 90%;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .titrePop {}
+
+    .cardsPop {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .cardPop {}
+
+    .cardPop:hover {}
+
+    .imagePop {}
+
+    .imagePop>img {}
+
+    .detailPop {}
+
+    .textPop {}
+
+    .starsPop {}
+
+    /*section Activités à Marseille*/
+    .activitesMarseille {}
+
+    .titreMarseille {}
+
+    .cardsMarseille {
+        height: 270px;
+    }
+
+    .cardMarseille {
+        Width: 21%;
+    }
+
+    .cardMarseille:hover {}
+
+    .imagMarseille {}
+
+    .imagMarseille>img {}
+
+    .textMarseille {
+        padding: 0px;
+        height: 50px;
+    }
+
+    .textMarseille>h3 {
+        padding: 5px;
+    }
+
+    /*section footer*/
+    footer {
+        gap: 50px;
+    }
+
+    .columnFooter {}
+
+    .itemFooter {}
+
 }

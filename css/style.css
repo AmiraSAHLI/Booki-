@@ -38,6 +38,8 @@ header {
 
 #logo>img {
     padding-left: 20px;
+    width: 60px;
+    height: 20px;
 }
 
 nav {
@@ -47,7 +49,6 @@ nav {
     gap: 0px;
     height: 100%;
 }
-
 
 .menuItem {
     text-decoration: none;
@@ -67,7 +68,6 @@ nav {
     color: #0065FC;
 }
 
-
 main {
     display: flex;
     flex-direction: column;
@@ -80,6 +80,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin: 0;
 }
 
 .texte {
@@ -142,7 +143,7 @@ main {
 
 .loupe>i {}
 
-
+/*zone filtre*/
 
 .zoneFiltres {
     display: flex;
@@ -156,12 +157,13 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: unset;
     gap: 20px;
 }
 
 .buttonFiltre {
-
-    height: 40px;
+    height: 50px;
+    width: unset;
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -202,6 +204,7 @@ main {
 }
 
 /*section Hébergement et plus pop*/
+
 .hebergPop {
     display: flex;
     flex-direction: row;
@@ -209,6 +212,7 @@ main {
 }
 
 /*div Hébergement*/
+
 .hebergement {
     background-color: #f2f2F2;
     border-radius: 20px;
@@ -237,6 +241,7 @@ main {
     border-radius: 20px;
     background-color: #ffffff;
     border: 3px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 }
 
@@ -286,6 +291,7 @@ main {
 .afficherPlus {}
 
 /*Aside Les plus pop*/
+
 .plusPop {
     background-color: #f2f2F2;
     border-radius: 20px;
@@ -294,7 +300,9 @@ main {
     flex-direction: column;
     gap: 20px;
     padding: 30px;
-
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex: unset;
 }
 
 .titrePop {
@@ -333,7 +341,6 @@ main {
     height: 100%;
     width: 40%;
     border-radius: 20px 0px 0px 20px;
-
 }
 
 .imagePop>img {
@@ -349,7 +356,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .textPop {
@@ -400,7 +406,6 @@ main {
     background-color: #ffffff;
     text-decoration: none;
     color: black;
-    
 }
 
 .cardMarseille:hover {
@@ -412,52 +417,59 @@ main {
     display: flex;
     border-radius: 20px 20px 0px 0px;
     width: 100%;
-    height : auto;
-    flex:1; 
+    height: auto;
+    flex: 1;
     overflow: hidden;
 }
 
-.imagMarseille > img {
+.imagMarseille>img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
-    .textMarseille {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        padding: 10px;
-        height: 70px;
-        
-    }
-    .textMarseille > h3 {
-        padding: 10px;
-    }
+.textMarseille {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
 
-    /*section footer*/
-    footer {
-        display: flex;
-        justify-content: flex-start;
-        background-color: #f2f2f2;
-        gap: 20px;
-        padding: 30px;
-    }
+}
 
-    .columnFooter {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        width: 30%;
-        gap: 20px;
-    }
+.textMarseille>h3 {
+    padding: 10px;
+}
 
-    .itemFooter {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        text-decoration: none;
-        color: #000000;
-        gap: 20px;
-    }
+/*section footer*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #f2f2f2;
+    gap: 20px;
+    padding: 30px;
+}
+
+.columnFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    gap: 20px;
+    padding: 0px;
+}
+
+.columnFooter>h3 {
+    font-weight: bold;
+}
+
+.itemFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #000000;
+    gap: 20px;
+}

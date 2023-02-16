@@ -1,62 +1,130 @@
-@media screen and (min-width: 375px ) and ( max-width:767px) {
+@media screen and (min-width: 375px) and (max-width:767px) {
 
- 
     .blocPage {
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0 0 0;
     }
 
 
     /* header */
 
-    
-header {
-    flex-direction: column;
-    justify-content: unset;
-    height: auto;
-}
+    header {
+        flex-direction: column;
+        justify-content: unset;
+        height: auto;
+    }
 
-#logo {
-    justify-content: center;
-    
-}
+    #logo {
+        justify-content: center;
 
-#logo>img {
-    padding-left: 0px;
-}
+    }
 
-nav {
-    justify-content: center;
-    height: 60px;
-}
+    #logo>img {
+        padding-left: 0px;
+    }
 
+    nav {
+        justify-content: center;
+        height: 60px;
+    }
 
-.menuItem {
-    width: 50%;
-    
-}
+    .menuItem {
+        width: 50%;
+    }
 
-.menuItem:hover {
-    border-top: unset;
-    border-bottom: 4px #0065FC solid;
-    
-}
+    .menuItem:hover {
+        border-top: unset;
+        border-bottom: 4px #0065FC solid;
+    }
 
-/* main */
-
-
-
-
-
+    /* barre de recherche */
+    .section1 {
+        margin: 0 20px 0 20px;
+    }
 
     .rechercher {
         display: none;
     }
-    
+
     .loupe {
         display: block;
     }
+
+    /*zone filtre*/
+
     .zoneFiltres {
         flex-direction: column;
-        
     }
+
+    .buttonFiltres {
+       gap:10px;
+    }
+
+    .buttonFiltre {
+        
+        width: 160px;
+    }
+
+    .zoneInfo {
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    /*section Hébergement et plus pop*/
+    .hebergPop {
+        flex-direction: column-reverse;
+    }
+
+    /*div Hébergement*/
+    .hebergement {
+        background-color: #FFFFFF;
+        Width: auto;
+        flex: 1;
+        padding: 10px;
+    }
+
+
+    .cardsHeberg {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .cardHeberg {
+        width: 100%;
+    }
+
+
+    /*Aside Les plus pop*/
+    .plusPop {
+        background-color: #F2F2F2;
+        border-radius: 0px;
+        Width: auto;
+        flex: 1;
+        padding: 20px;
+    }
+
+    /*section Activités à Marseille*/
+    .activitesMarseille {}
+
+    .cardsMarseille {
+        flex-direction: column;
+        height: unset;
+        padding: 0 20px 0 20px;
+        gap: 20px;
+    }
+
+    .cardMarseille {
+        height: 200px;
+        Width: auto;
+    }
+
+    /*section footer*/
+    footer {
+        flex-direction: column;
+    }
+
+    .columnFooter {
+        width: 100%;
+        padding: 10px;
+    }
+
 }
